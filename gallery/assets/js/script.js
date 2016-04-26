@@ -11,14 +11,27 @@ $(document).ready(function(){
   		return false;
 	});
 
-	$("#img").click(function() {
+	$(".img").click(function() {
+		var y = $(this).attr("id");
+		$(".modal-img").attr("src", "assets/img/" + y + ".jpg");
 		$("#modal-container").show();
 		$("body").addClass("noscroll");
+		var h = parseInt($(".modal-img").css("height").replace("px", ""));
+		if (h > 600)
+			{$(".modal-img").css("padding-left", "300px")
+	} else {
+		console.log(false);
+	}
 	});
 
 	$("#modal-overlay").click(function() {
 		$("#modal-container").hide();
 		$("body").removeClass("noscroll");
 	});
+
+	$("#cancel").click(function() {
+		$("#modal-container").hide();
+		$("body").removeClass("noscroll");
+	})
 
 });
