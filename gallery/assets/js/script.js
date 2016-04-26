@@ -16,12 +16,6 @@ $(document).ready(function(){
 		$(".modal-img").attr("src", "assets/img/" + y + ".JPG");
 		$("#modal-container").show();
 		$("body").addClass("noscroll");
-		var h = parseInt($(".modal-img").css("height").replace("px", ""));
-		if (h > 600)
-			{$(".modal-img").css("padding-left", "300px")
-	} else {
-		console.log(false);
-	}
 	});
 
 	$("#modal-overlay").click(function() {
