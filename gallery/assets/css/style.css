@@ -43,6 +43,7 @@ a {
 	position: relative;
 	display: block;
 	margin: 0 auto;
+	repeat: none;
 } 
 
 #cancel{
