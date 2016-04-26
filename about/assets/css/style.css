@@ -1,0 +1,157 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*
+#for-kevin{
+	font-size: 250px;
+	text-align: center;
+	color: green;
+}
+*/
+
+#header{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.background-pic{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: -100px;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+#title{
+	font-size: 90px;
+	display: table;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 30px;
+	cursor: default;
+}
+
+#nav-menu{
+	width: 450px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 200px;
+}
+
+#delia{
+	font-size: 60px;
+	display: table;
+	margin: 0 auto;
+	position: relative;
+	cursor: default;
+}
+
+#dropdown-menu{
+	list-style: none;
+	position: relative;
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: linear 0.3s;
+	-moz-transition: linear 0.3s;
+	-o-transition: linear 0.3s;
+}
+
+#menu{
+	margin: 0 auto;
+}
+
+#box{
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	background-color: #fff;
+	margin-left: 23px;
+	opacity: 0;
+	-webkit-transition: linear 0.3s;
+	-moz-transition: linear 0.3s;
+	-o-transition: linear 0.3s;
+} 
+
+.menu-item{
+	font-size: 40px;
+	font-weight: 300;
+	color: black;
+	letter-spacing: 15px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.section{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin-top: 20px;
+}
+
+.words{
+	position: absolute;
+	font-size: 40px;
+	cursor: default;
+}
+
+#pt-1{
+	margin-top: 200px;
+	margin-left: 50px;
+	width: 800px;
+}
+
+#pt-2{
+	margin-top: 100px;
+	margin-left: 600px;
+	width: 400px;
+}
+
+#pt-3{
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 1000px;
+}
+
+#pt-4{
+	margin-top: 400px;
+	margin-left: 150px;
+}
+
+#pt-5{
+	margin-top: 200px;
+}
+
+#top-arrow{
+	margin-top: 400px;
+	cursor: pointer;
+	width: 50px;
+	height: 20px;
+}
+
+#arrow{
+	position: absolute;
+}
+
+#top{
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	margin-left: 23px;
+	margin-top: 55px;
+}
