@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 	$(".img").click(function() {
 		var y = $(this).attr("id");
-		$(".modal-img").attr("src", "assets/img/" + y + ".jpg");
+		$(".modal-img").attr("src", "assets/img/" + y + ".JPG");
 		$("#modal-container").show();
 		$("body").addClass("noscroll");
 		var h = parseInt($(".modal-img").css("height").replace("px", ""));
